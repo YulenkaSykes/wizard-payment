@@ -1,0 +1,35 @@
+.card {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+
+  .card-best-offer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    .color{
+      color: red;
+      margin-right: 5px;
+    }
+  }
+
+  &-title, &-price {
+    font-weight: bold;
+  }
+
+  &-title {
+    font-size: 24px;
+  }
+
+  &-points {
+    align-self: flex-start;
+  }
+
+  &-actions {
+    align-self: center;
+  }
+}
